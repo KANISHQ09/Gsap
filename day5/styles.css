@@ -9,4 +9,70 @@ body {
     height: 100%;
     width: 100%;
     font-family: Arial, sans-serif;
+    overflow-x:hidden;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1733108906414-fde4a7596456?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo i{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.full {
+    top: 0;
+    right: -40%;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.147);
+    backdrop-filter: blur(8px);
+    font-size: 50px;
+    padding-top: 50px ;
+}
+
+.full ul{
+    list-style-type: none;
+}
+.full ul li {
+    margin: 30px 50px;
+}
+
+.full ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.full ul li a:hover {
+    color: #000000;
+}
+
+.full ul i{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 3%;
+    right: 4%;
+    font-size: 35px;
+    border: 3px solid white;
+}
+.full ul i:hover {
+    color: #000000;
+    border: 3px solid black;
 }
