@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#page1 ,#page2, #page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #1c1c1c;
+}
+
+#mark{
+    flex-shrink: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 25px;
+    background-color: lawngreen;
+    font-size: 20px;
+    transform: translateX(-100%);
+}
+#mark i{
+    font-size: 60px;
+}
+
+.main{
+    display: flex;
+    overflow: hidden;
+}
