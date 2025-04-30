@@ -121,19 +121,19 @@ nav {
     height: 60px;
 }
 
-.section2 {
+.section2,.section3 {
     padding: 30px;
 }
-.services{
+.services,.cs{
     display: flex;
     gap: 30px;
 }
-.services span{
+.services span,.cs span{
     display: inline-block;
     padding: 5px;
     background-color: lawngreen;
 }
-.services p{
+.services p,.cs p{
     width: 60%;
 }
 
